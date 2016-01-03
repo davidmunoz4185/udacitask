@@ -1,0 +1,23 @@
+commit e8a05d4937ad7429dddf377cc2a00d2a9359193f
+Author: Tyler <tyler@tylermorgan.me>
+Date:   Sat Jan 2 20:12:54 2016 -0800
+
+    Added List.completed?, Item priorities, and List.rename_item
+
+commit 13a7684f95374c39caca762b5cd383ed5c6d2511
+Author: Tyler <tyler@tylermorgan.me>
+Date:   Sat Jan 2 18:58:21 2016 -0800
+
+    Added TodoList.print
+
+commit 027391e59019406e2e0622acda20aff768662cc5
+Author: Tyler <tyler@tylermorgan.me>
+Date:   Sat Jan 2 18:31:55 2016 -0800
+
+    Added code form Udacity course. Basic TodoList and Item implemented
+
+commit f27f81129a86adcff888b9e51a4d46ba1fee1f75
+Author: Tyler <tyler@tylermorgan.me>
+Date:   Sat Jan 2 11:11:21 2016 -0800
+
+    Initial code provided by Udacity
