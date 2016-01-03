@@ -1,6 +1,7 @@
 require './todolist.rb'
 
 # Creates a new todo list
+todo = TodoList.new("My List")
 
 # Add four new items
 
