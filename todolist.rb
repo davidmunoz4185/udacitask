@@ -9,16 +9,28 @@ class TodoList
     item = Item.new(new_item)
     @items.push(item)
   end
+  def print_list
+    puts "-" * @title.length
+    puts @title
+    puts "-" * @title.length
+    longest_word = @items.inject(0) do |previous_length, current_word|
+      current_length = current_word.description.length
+      current_length > previous_length ? current_length : previous_length
+    end
+    @items.each_index {|index|
+      puts "#{index} - #{@items[index].description}".ljust(longest_word + 7) + "Completed: #{@items[index].completed_status}"
+    }
+  end
 end
 
 class Item
-  # methods and stuff go here
-  attr_accessor description, completion_status
-
   # Initialize item with a description and marked as
   # not complete
   def initialize(item_description)
      @description = item_description
      @completed_status = false
   end
+
+  # methods and stuff go here
+  attr_accessor :description, :completed_status
 end

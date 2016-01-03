@@ -4,8 +4,14 @@ require './todolist.rb'
 todo = TodoList.new("My List")
 
 # Add four new items
+todo.add_item("Get Milk")
+todo.add_item("Print Ticket")
+todo.add_item("Write Code")
+todo.add_item("Take Over the World")
 
 # Print the list
+
+todo.print_list
 
 # Delete the first item
 
